@@ -36,3 +36,16 @@ incomplete_comparison = df.groupby("Incomplete_Request")["Total_Days"].mean()
 
 print("\nAverage processing time by request completeness:")
 print(incomplete_comparison)
+# Create a chart showing average processing time by stage
+import matplotlib.pyplot as plt
+
+stage_averages.plot(kind="bar")
+
+plt.title("Average Vendor Approval Time by Stage")
+plt.xlabel("Process Stage")
+plt.ylabel("Average Days")
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+plt.savefig("analysis/processing_time_by_stage.png")
+plt.show()
