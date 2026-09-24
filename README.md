@@ -34,6 +34,10 @@ The analysis will focus on:
 * Operational risks
 * Opportunities for process improvement
 
+### Processing Time by Stage
+
+![Average Vendor Approval Time by Stage](analysis/processing_time_by_stage.png)
+
 ## Proposed Solution
 
 Based on the analysis, a redesigned workflow will be proposed to reduce unnecessary delays, improve handoffs between teams, and create clearer process ownership.
